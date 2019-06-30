@@ -20,7 +20,7 @@ spec:
       serviceAccountName: heapster
       containers:
       - name: monitoring-heapster
-        image: gcr.io/google_containers/heapster-amd64:v1.5.2
+        image: daocloud.io/liukuan73/heapster-amd64:v1.5.2
         imagePullPolicy: IfNotPresent
         command:
         - /heapster
